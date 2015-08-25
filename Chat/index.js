@@ -18,7 +18,7 @@ var app = {
 app.initialize();
 
 var bt = $("<button>Refresh</button>");
-bt.onclick(function(){
+bt.click(function(){
 	location.reload();
 });
 $("body").append(bt);

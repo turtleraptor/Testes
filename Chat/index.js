@@ -9,7 +9,7 @@ var app = {
     },
     
     onDeviceReady: function() {
-		  $("#output").append("GIT HUB!!!");
+		  $("#output").append("GIT HUB GPS!!!");
 		  navigator.geolocation.getCurrentPosition(onSuccess, onError);
     }    
 };

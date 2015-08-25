@@ -9,12 +9,19 @@ var app = {
     },
     
     onDeviceReady: function() {
+    	
 		  $("#output").append("GIT HUB GPS!!!");
 		  navigator.geolocation.getCurrentPosition(onSuccess, onError);
     }    
 };
 
 app.initialize();
+
+var bt = $("<button>Refresh</button>");
+bt.onclick(function(){
+	location.reload();
+});
+$("body").append(bt);
 
 // onSuccess Callback
 //   This method accepts a `Position` object, which contains

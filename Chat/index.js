@@ -1,0 +1,3 @@
+$(function(){
+  $("#output").append("github!");
+});

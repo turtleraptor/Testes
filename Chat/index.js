@@ -21,7 +21,7 @@ var bt = $("<button>Refresh</button>");
 bt.click(function(){
 	location.reload();
 });
-$("body").append(bt);
+$("#output").append(bt);
 
 // onSuccess Callback
 //   This method accepts a `Position` object, which contains
